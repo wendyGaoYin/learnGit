@@ -1,0 +1,71 @@
+html,
+body {
+	width: 100%;
+	height: auto;
+}
+body {
+	padding: .1rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.font_box {
+	font-size: 16px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .5);
+}
+
+.txt_content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 710px;
+	height: 720px;
+	padding: 65px 50px 53px 60px;
+	margin: -355px 0 0 -360px;
+	background: url(../img/bg_pc.jpg) no-repeat;
+	background-size: 100% 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.txt_content .btn_close {
+	position: absolute;
+	top: -9px;
+	right: -13px;
+	width: 37px;
+	height: 37px;
+	background: url(../img/btn_close.png) no-repeat;
+	background-size: cover;
+}
+
+.font_box .head_1 {
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.font_box p {
+	text-indent: 2em;
+	line-height: 1.54;
+}
+
+.color_f00 {
+	color: #f00;
+}
+
+.font_box p.title {
+	text-indent: 0;
+}
+
+.font_box p.txt_right {
+	text-align: right;
+	text-indent: 0;
+}
